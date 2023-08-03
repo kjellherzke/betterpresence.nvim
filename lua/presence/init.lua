@@ -825,7 +825,7 @@ function Presence:update_for_buffer(buffer, should_debounce)
         large_image = self.options.main_image or "coding-image", -- use_file_as_main_image and asset_key or "neovim",
         large_text = use_file_as_main_image and file_text or neovim_image_text,
         --   small_image = use_file_as_main_image and "neovim" or asset_key,            -- deactivate small image
-        small_text = "" -- use_file_as_main_image and neovim_image_text or file_text,
+        small_text = "Can not see" -- use_file_as_main_image and neovim_image_text or file_text,
     }
 
     local activity = {
