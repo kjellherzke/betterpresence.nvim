@@ -68,6 +68,7 @@ local default_file_assets = require("presence.file_assets")
 local plugin_managers = require("presence.plugin_managers")
 local Discord = require("presence.discord")
 
+
 function Presence:setup(...)
     -- Support setup invocation via both dot and colon syntax.
     -- To maintain backwards compatibility, colon syntax will still
@@ -824,7 +825,7 @@ function Presence:update_for_buffer(buffer, should_debounce)
         large_image = self.options.main_image or "coding-image", -- use_file_as_main_image and asset_key or "neovim",
         large_text = use_file_as_main_image and file_text or neovim_image_text,
         --   small_image = use_file_as_main_image and "neovim" or asset_key,            -- deactivate small image
-        --        small_text = use_file_as_main_image and neovim_image_text or file_text,
+        small_text = "" -- use_file_as_main_image and neovim_image_text or file_text,
     }
 
     local activity = {
