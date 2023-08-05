@@ -12,8 +12,10 @@
    </p>
 </p>
 
-> Old demo:
-<img src="https://gist.githubusercontent.com/andweeb/df3216345530234289b87cf5080c2c60/raw/ad916fec8de921d0021801a0af877a5349621e7e/presence-demo-a.gif" width="100%" alt="demo.gif">
+> (Somewhat old) demo:
+<img src="https://i.ibb.co/QNVDw9Z/Screenshot-2023-08-05-08-10-34-948-com-android-chrome.jpg" width="100%" alt="Demo">
+
+> Not updated readme yet, below:
 
 ## Features
 * Light and unobtrusive
