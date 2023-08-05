@@ -1,6 +1,16 @@
-<img src="https://gist.githubusercontent.com/andweeb/df3216345530234289b87cf5080c2c60/raw/8de399cfed82c137f793e9f580027b5246bc4379/presence.nvim.png" alt="presence.nvim">&#x200B;
+`Disclaimer: This repo was originally a fork of 'presence.nvim'`
 
-**[Features](#features)** | **[Installation](#installation)** | **[Configuration](#configuration)** | **[Troubleshooting](#troubleshooting)** | **[Development](#development)** | **[Contributing](#contributing)**
+<p align="center">
+   <br />
+   <a href="https://github.com/einKnuffy" target="_blank"><img width="150px" src="https://i.imgur.com/dAnxU0c.png" /></a>
+   <h1 align="center"><b>Better Presence</b></h1>
+   <!-- <p align="center">A passsionate fullstack developer, based in Germany. <br/>
+   Padawan of <b>@ThePrimeagen</b> <br/>
+   Current project 🕜 : Writing a linter for <b><a href="https://github.com/TodePond/DreamBerd" target="_blank">DreamBerd</a></b> -->
+   </p>
+</p>
+
+ FURTHER UPDATE README
 
 > Discord [Rich Presence](https://discord.com/rich-presence) plugin for [Neovim](https://neovim.io)
 
@@ -99,3 +109,4 @@ let g:presence_line_number_text    = "Line %s out of %s"
 * Enable [logging](#configuration) and ensure that `presence.nvim` is **_not_** in the list of vim plugins in your config
 * Run `nvim` with your local changes: `nvim --cmd 'set rtp+=path/to/your/local/presence.nvim' file.txt`
 * Ensure that there are no [luacheck](https://github.com/mpeterv/luacheck/) errors: `luacheck lua`
+  
