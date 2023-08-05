@@ -1,19 +1,18 @@
 `Disclaimer: This repo was originally a fork of 'presence.nvim'`
 
+`Currently work-in-progress: More Features will be added soon`
+
 <p align="center">
    <br />
    <a href="https://github.com/einKnuffy" target="_blank"><img width="150px" src="https://i.imgur.com/dAnxU0c.png" /></a>
    <h1 align="center"><b>Better Presence</b></h1>
-   <!-- <p align="center">A passsionate fullstack developer, based in Germany. <br/>
-   Padawan of <b>@ThePrimeagen</b> <br/>
-   Current project 🕜 : Writing a linter for <b><a href="https://github.com/TodePond/DreamBerd" target="_blank">DreamBerd</a></b> -->
+  <p align="center">A Discord Rich Presence Plugin for Neovim <br/>
+   Blazingly fast and <b>feature</b>-rich <br/>
+   Currently early alpha version 🕒
    </p>
 </p>
 
- FURTHER UPDATE README
-
-> Discord [Rich Presence](https://discord.com/rich-presence) plugin for [Neovim](https://neovim.io)
-
+> Old demo:
 <img src="https://gist.githubusercontent.com/andweeb/df3216345530234289b87cf5080c2c60/raw/ad916fec8de921d0021801a0af877a5349621e7e/presence-demo-a.gif" width="100%" alt="demo.gif">
 
 ## Features
