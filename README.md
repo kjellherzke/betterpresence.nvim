@@ -1,8 +1,3 @@
-> On 13. August 2023 more updates will come.
-> Until then I am on vacation and unable to continue development for now.
-
-`Disclaimer: This repo was originally a fork of 'presence.nvim'`
-
 `Currently work-in-progress: More Features will be added soon`
 
 <p align="center">
